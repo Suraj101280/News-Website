@@ -40,6 +40,11 @@ nav button{
   color: white;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 8px;
+}
+nav button:hover{
+    background-color:cadetblue;
+    color:white;
 }
 nav ul{
   display: flex;
@@ -100,14 +105,18 @@ nav ul{
   gap: 11px;
   width: 130px;
   height: 33px;
-  background-color: rgb(255, 108, 108);
+  background-color:pink;
   border: none;
   outline: none;
   font-size: 18px;
   border-radius: 16px;
-  color: white;
+  color: blue;
   cursor: pointer;
   padding: 2px;
+}
+.categoryBtn button:hover{
+    background-color: burlywood;
+    color: black;
 }
 
 
